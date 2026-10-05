@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- encabezado-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- titulo de la pagina-->
+<title>Formularios en HTML</title>
+<!-- Libreria de iconos en linea -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+
+</head>
+<!-- cuerpo-->
+<body>
+<h2>Formulario con campos ocultos</h2>
+<!-- se define a donde se dirige la informacion y la envia-->
+<form action="" method="post">
+<!--campo invisible para guardar o enviar datos de fondo -->
+<input type="hidden" name="hora" value="3:30">
+Ingresa tu nombre:
+<!-- casilla de texto normal-->
+<input type="text" name="nombre">
+<br>
+<!-- boton de enviar,se agregan iconos visuales-->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
+<!-- boton de borrar,se agregan iconos visuales-->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button>
+</form>
+</body>
+</html>
